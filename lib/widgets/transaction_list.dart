@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/transaction.dart';
 import './transaction_item.dart';
 
+// ignore: must_be_immutable
 class TransactionList extends StatelessWidget {
   final List<Transaction> transactions;
   Function deleteTx;
