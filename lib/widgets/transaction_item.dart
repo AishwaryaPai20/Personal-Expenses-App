@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../models/transaction.dart';
+import './transaction_list.dart';
 
 class TransactionItem extends StatelessWidget {
   const TransactionItem({
@@ -20,6 +21,7 @@ class TransactionItem extends StatelessWidget {
       margin: EdgeInsets.symmetric(vertical: 8, horizontal: 5),
       child: ListTile(
         leading: CircleAvatar(
+          // backgroundColor: Colors.primaries[Random().nextInt(Colors.primaries.length)],
           radius: 30,
           child: Padding(
             padding: EdgeInsets.all(6),
